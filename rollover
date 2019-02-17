@@ -1,0 +1,13 @@
+function showMe(elem){  
+  var name = elem.attributes.id.value;  
+  name = name.replace(/_.+_/,"");  
+  var elem = document.getElementById(name.replace("shape","info"));  
+  elem.setAttribute("display","inline");  
+}  
+function hideMe(elem){  
+  var name = elem.attributes.id.value;  
+  name = name.replace(/_.+_/,"");  
+  var elem = document.getElementById(name.replace("shape","info"));  
+  elem.setAttribute("display","none");  
+}  // JavaScript Document
+
