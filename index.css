@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/percorso_del_font.otf") format("OpenType");
+}
+
+:root {
+    --size: 50px;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #FFFFFF;
+
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+}
+
+#wrapper {
+    padding: 12px;
+}
+
+.puntino {
+    position: absolute;
+
+    width: var(--size);
+    height: var(--size);
+
+    border-radius: var(--size);
+
+    cursor: pointer;
+
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+.puntino.face {
+    background-image: url("gif/!KISFACE.GIF");
+}
+.puntino.blink {
+    background-image: url("gif/blink.gif");
+}
+
+.puntino > .img-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+
+    pointer-events: none;
+}
+.puntino > .img-container.show {
+    opacity: 1;
+}
+
+.puntino > .img-container > img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 50;
+}
+
+.rettangolo {
+    position: absolute;
+
+    border: 1px solid black;
+}
+
+.rettangolo > h2{
+    position: absolute;
+    top: -60px;
+}
