@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: url("/fonts/percorso_del_font.otf") format("OpenType");
+    src: url("/font/Mattone-Regular.ttf") format("OpenType");
 }
 
 :root {
-    --size: 50px;
+    --size: 30px;
 }
 
 html {
@@ -24,7 +24,8 @@ body {
 }
 
 #wrapper {
-    padding: 12px;
+    padding: 1px;
+	margin: 1px;
 }
 
 .puntino {
@@ -49,6 +50,14 @@ body {
     background-image: url("gif/blink.gif");
 }
 
+.puntino.globe {
+    background-image: url("gif/globe.gif");
+}
+
+.puntino.box {
+    background-image: url("gif/box.GIF");
+}
+
 .puntino > .img-container {
     position: relative;
     width: 100%;
@@ -64,8 +73,8 @@ body {
 
 .puntino > .img-container > img {
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 25%;
+    top: 25%;
 
     transform: translate(-50%, -50%);
 
@@ -74,8 +83,8 @@ body {
 
 .rettangolo {
     position: absolute;
-
-    border: 1px solid black;
+	
+    border: 0.70px solid black;
 }
 
 .rettangolo > h2{
