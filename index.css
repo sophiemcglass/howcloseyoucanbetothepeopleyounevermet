@@ -79,6 +79,15 @@ body {
 }
 
 
+.puntino.blueball {
+    background-image: url("gif/ball_gif.GIF");
+}
+
+.puntino.web {
+    background-image: url("gif/WEBONE.GIF");
+}
+
+
 
 .puntino > .img-container {
     position: relative;
