@@ -58,6 +58,28 @@ body {
     background-image: url("gif/box.GIF");
 }
 
+.puntino.no {
+    background-image: url("gif/no_gif.GIF");
+}
+
+.puntino.poww {
+    background-image: url("gif/POW_B1.GIF");
+}
+
+.puntino.ystar {
+    background-image: url("gif/star_gif.gif");
+}
+
+.puntino.silverheart {
+    background-image: url("gif/WBH01SRW.GIF");
+}
+
+.puntino.orangeheart {
+    background-image: url("gif/WBH01TLO.GIF");
+}
+
+
+
 .puntino > .img-container {
     position: relative;
     width: 100%;
