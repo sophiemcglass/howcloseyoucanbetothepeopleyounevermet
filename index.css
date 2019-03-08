@@ -3,6 +3,10 @@
 @font-face {
     font-family: "Open Sans";
     src: url("/font/Mattone-Regular.ttf") format("OpenType");
+	
+	
+	
+	
 }
 
 :root {
@@ -62,8 +66,8 @@ body {
     background-image: url("gif/no_gif.GIF");
 }
 
-.puntino.poww {
-    background-image: url("gif/POW_B1.GIF");
+.puntino.cross {
+    background-image: url("gif/cross.gif");
 }
 
 .puntino.ystar {
@@ -78,6 +82,38 @@ body {
     background-image: url("gif/WBH01TLO.GIF");
 }
 
+.puntino.blackstar {
+    background-image: url("gif/starblack_gif.GIF");
+}
+
+.puntino.whistle {
+    background-image: url("gif/whistle.gif");
+}
+
+.puntino.yuk {
+    background-image: url("gif/YUKBLUES.GIF");
+}
+
+.puntino.blueheart {
+    background-image: url("gif/WBH02TNB.GIF");
+}
+
+.puntino.point {
+    background-image: url("gif/WBC01TLY.GIF");
+}
+
+.puntino.snowflake {
+    background-image: url("gif/snowflake_gif.GIF");
+}
+
+.puntino.dadi {
+    background-image: url("gif/DADI.gif");
+}
+
+.puntino.blueglobe {
+    background-image: url("gif/globeblue_gif.GIF");
+}
+
 
 .puntino.blueball {
     background-image: url("gif/ball_gif.GIF");
@@ -86,6 +122,12 @@ body {
 .puntino.web {
     background-image: url("gif/WEBONE.GIF");
 }
+
+.puntino.tenda {
+    background-image: url("gif/WBL01TNC.GIF");
+}
+
+
 
 
 
