@@ -1,12 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("/font/Mattone-Regular.ttf") format("OpenType");
-	
-	
-	
-	
+    font-family: "Mattone";
+    src: url("font/Mattone-Regular.ttf") format("OpenType");
 }
 
 :root {
@@ -129,8 +125,6 @@ body {
 
 
 
-
-
 .puntino > .img-container {
     position: relative;
     width: 100%;
@@ -161,6 +155,7 @@ body {
 }
 
 .rettangolo > h2{
+	font-family: 'Mattone';
+	font-size: small;
     position: absolute;
-    top: -60px;
-}
+    top: -30px;}
