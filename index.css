@@ -3,10 +3,11 @@
 @font-face {
     font-family: "Mattone";
     src: url("font/Mattone-Regular.ttf") format("OpenType");
+	
 }
 
 :root {
-    --size: 30px;
+    --size: 27px;
 }
 
 html {
@@ -46,12 +47,13 @@ body {
 .puntino.face {
     background-image: url("gif/!KISFACE.GIF");
 }
+
 .puntino.blink {
     background-image: url("gif/blink.gif");
 }
 
-.puntino.globe {
-    background-image: url("gif/globe.gif");
+.puntino.pynk {
+    background-image: url("gif/pynk.gif");
 }
 
 .puntino.box {
@@ -122,6 +124,95 @@ body {
 .puntino.tenda {
     background-image: url("gif/WBL01TNC.GIF");
 }
+
+.puntino.MENU {
+    background-image: url("gif/MENUMENU.gif");
+}
+
+
+
+
+
+.puntino.face02 {
+    background-image: url("gif/!KISFACE copia.GIF");
+}
+
+.puntino.blink02 {
+    background-image: url("gif/blink copia.gif");
+}
+
+.puntino.globe02 {
+    background-image: url("gif/globe copia.gif");
+}
+
+.puntino.box02 {
+    background-image: url("gif/box copia.GIF");
+}
+
+.puntino.no02 {
+    background-image: url("gif/no_gif copia.GIF");
+}
+
+.puntino.cross02 {
+    background-image: url("gif/cross copia.gif");
+}
+
+.puntino.ystar02 {
+    background-image: url("gif/star_gif copia.gif");
+}
+
+.puntino.silverheart02 {
+    background-image: url("gif/WBH01SRW copia.GIF");
+}
+
+.puntino.orangeheart02 {
+    background-image: url("gif/WBH01TLO copia.GIF");
+}
+
+.puntino.blackstar02 {
+    background-image: url("gif/starblack_gif copia.GIF");
+}
+
+.puntino.whistle02 {
+    background-image: url("gif/whistle copia.gif");
+}
+
+.puntino.yuk02 {
+    background-image: url("gif/YUKBLUES copia.GIF");
+}
+
+.puntino.blueheart02 {
+    background-image: url("gif/WBH02TNB copia.GIF");
+}
+
+.puntino.point02 {
+    background-image: url("gif/WBC01TLY copia.GIF");
+}
+
+.puntino.snowflake02 {
+    background-image: url("gif/snowflake_gif copia.GIF");
+}
+
+.puntino.dadi02 {
+    background-image: url("gif/DADI copia.gif");
+}
+
+.puntino.blueglobe02 {
+    background-image: url("gif/globeblue_gif copia.GIF");
+}
+
+.puntino.blueball02 {
+    background-image: url("gif/ball_gifcopia.GIF");
+}
+
+.puntino.web02 {
+    background-image: url("gif/WEBONE copia.GIF");
+}
+
+.puntino.tenda02  {
+    background-image: url("gif/WBL01TNC copia.GIF");
+}
+
 
 
 
