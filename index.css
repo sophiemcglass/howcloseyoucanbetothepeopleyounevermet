@@ -157,6 +157,10 @@ body {
     background-image: url("gif/butterfly.gif");
 }
 
+.puntino.HELP {
+    background-image: url("gif/HELP.gif");
+}
+
 
 .puntino > .img-container {
     position: relative;
