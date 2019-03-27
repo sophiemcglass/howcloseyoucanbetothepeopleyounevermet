@@ -161,6 +161,10 @@ body {
     background-image: url("gif/HELP.gif");
 }
 
+.puntino.SOFIA {
+    background-image: url("gif/CREDIT-SOFIA-TASSI.gif");
+}
+
 
 .puntino > .img-container {
     position: relative;
